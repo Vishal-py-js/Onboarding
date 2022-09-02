@@ -106,7 +106,6 @@ function Onboarding() {
     const [progress, setProgress] = useState(100/(totalSteps*2));
     const [pageNo, setPageNo] = useState(1)
 
-    console.log(progress)
 
     const handleProgress = () => {
         setProgress(progress + 100/totalSteps)

@@ -48,10 +48,7 @@ function Form3({ handleProgress }) {
 
     useEffect(() => {
         const x = document.getElementsByClassName("card-item")
-        console.log(x);
-        console.log(x.length);
         for(let i=0; i<x.length;i++) {
-            console.log(x[i]);
             x[i].addEventListener("click", function(){
                 const selectedOne = document.querySelector(".selected")
                 if(selectedOne){
