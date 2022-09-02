@@ -1,0 +1,7 @@
+export const SET_NAME = "SET_NAME"
+export const SET_DISPLAY_NAME = "SET_DISPLAY_NAME"
+
+export const SET_WORKSPACE_NAME = "SET_WORKSPACE_NAME"
+export const SET_WORKSPACE_URL = "SET_WORKSPACE_URL"
+
+export const SET_USER = "SET_USER"
